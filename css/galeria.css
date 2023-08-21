@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(29, 29, 29, 0.969);
+}
+h1 {
+    color: aqua;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+section{
+    display: flex;
+    margin: auto;
+    border: 2px solid aquamarine;
+    margin-bottom: 5%;
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 2s ease;
+}
+section img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Nunito';
+    color: black;
+}
+a:hover {
+    cursor: pointer;
+    color: rgb(38, 182, 207);
+    background-color: #5a5a5a;
+}
